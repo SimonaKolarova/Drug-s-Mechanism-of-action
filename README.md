@@ -16,10 +16,9 @@ In search of such approaches, the Laboratory for Innovation Science at Harvard (
 To contribute to this important task, I explored and visualised important aspects of the provided dataset, constructed a neural network model in Python and described my project in detail in an HTML file.
 
 ## Repositories
+- [HTML interactive project description](https://simonakolarova.github.io/mechanism_of_action.html) - please let page fully load before examining
 - [Project github repository (data exploration)](https://github.com/SimonaKolarova/Drug-s-Mechanism-of-action)
 - [Kaggle repository (machine learning)](https://www.kaggle.com/simonakolarova/moa-predictions)
-- [Kaggle repository (features importance)](https://www.kaggle.com/simonakolarova/moa-feature-importance)
-- [HTML interactive project description](https://simonakolarova.github.io/mechanism_of_action.html) - please let page fully load before examining
 
 ## Dataset - understanding and visualisation
 First, I focused on understanding the different features (i.e., experimental conditions, gene expressions, cell viabilities) and the target (i.e., mechanisms of action) in the dataset. For the purpose I visualised their distributions and calculated their cross-correlations in this [Jupiter Notebook](https://github.com/SimonaKolarova/Drug-s-Mechanism-of-action/blob/main/Data%20-%20understanding%20and%20visualisation.ipynb). More information is available in the [HTML project description ('Dataset - understanding and cisualtisation' section)](https://simonakolarova.github.io/mechanism_of_action.html#item-2).
@@ -33,7 +32,6 @@ As relatively high cross-correlations between some of the gene expression and ce
 
 ## Predictive modelling
 Lastly, the knowledge obtained in the previous sections was used to preprocess the dataset and construct a neural network machine learning algorithm for the prediction of the probability of a drug having a specific mechanism of action. The log loss for the training data set was ~0.012 and for the external validation dataset ~0.019. For comparison, the log loss of the [winning submissions for the external validation dataset on Kaggle](https://www.kaggle.com/c/lish-moa/leaderboard) is ~0.016. Please find my [Kaggle machine learning notebook](https://www.kaggle.com/simonakolarova/moa-predictions) and more imformation about the model tranining and evalutation in the [HTML project description ('Predictive modelling')](https://simonakolarova.github.io/mechanism_of_action.html#item-5).
-Additionally, please find brief analysis of the importance of the different variables for the predictive model in my [Kaggel feature importance notebook](https://www.kaggle.com/simonakolarova/moa-feature-importance) and discussion of these results in the [HTML project description ('Predictive modelling')](https://simonakolarova.github.io/mechanism_of_action.html#item-5-3).
 
 
 ## Thank you for the great course!
